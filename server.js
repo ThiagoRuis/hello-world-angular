@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const appName = 'ruis-hello-world-angular';
+const appName = 'hello-world-angular';
 
 // Static file serving
 app.use(express.static(__dirname + '/dist/' + appName));
